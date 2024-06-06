@@ -41,26 +41,26 @@ button {
 }
 
 .sedan {
-    background-color: var(--bright-orange);
+    background-color: hsl(31, 77%, 52%); 
 }
 
 .suv {
-    background-color: var(--dark-cyan);
+    background-color: hsl(184, 100%, 22%);
 }
-
 .luxury {
-    background-color: var(--very-dark-cyan);
+    background-color: hsl(179, 100%, 13%);
+    
 }
 
 h1 {
     font-family: 'Big Shoulders Display';
-    color: var(--very-light-gray);
+    color:  hsl(0, 0%, 95%);
     margin: 2rem 0;
 }
 
 .btn {
     padding: 1rem;
-    background-color: var(--very-light-gray);
+    background-color:  hsl(0, 0%, 95%);
     border: 2px solid transparent;
     border-radius: 50px;
     margin-top: 1rem;
