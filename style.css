@@ -52,7 +52,7 @@ button {
     
 }
 
-h1 {
+.title {
     font-family: 'Big Shoulders Display';
     color:  hsl(0, 0%, 95%);
     margin: 2rem 0;
