@@ -59,11 +59,11 @@ button {
 }
 
 .btn {
-    padding: 1rem;
+    padding: 12px 25px;
     background-color:  hsl(0, 0%, 95%);
     border: 2px solid transparent;
-    border-radius: 50px;
-    margin-top: 1rem;
+    border-radius: 25px;
+    margin: 1rem;
     transition: background-color ease-out 0.2s;
 }
 
