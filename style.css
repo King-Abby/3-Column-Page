@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+:root {
+    --bright-orange: hsl(31, 77%, 52%);
+    --dark-cyan: hsl(184, 100%, 22%);
+    --very-dark-cyan: hsl(179, 100%, 13%);
+    --transparent-white: hsla(0, 0%, 100%, 0.75); /* - paragraphs -*/
+    --very-light-gray: hsl(0, 0%, 95%); /* - background, headings, buttons - */
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 15px;
+    font-family: 'Lexend Deca';
+    font-weight: 400;
+    background: var(--very-light-gray);
+}
+
+button {
+    font-family: inherit;
+}
+
+.container {
+    width: 80vw;
+    margin: 2rem auto;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.element {
+    padding: 2.5rem;
+}
+
+.element p {
+    color: var(--transparent-white);
+}
+
+.sedan {
+    background-color: var(--bright-orange);
+}
+
+.suv {
+    background-color: var(--dark-cyan);
+}
+
+.luxury {
+    background-color: var(--very-dark-cyan);
+}
+
+h1 {
+    font-family: 'Big Shoulders Display';
+    color: var(--very-light-gray);
+    margin: 2rem 0;
+}
+
+.btn {
+    padding: 1rem;
+    background-color: var(--very-light-gray);
+    border: 2px solid transparent;
+    border-radius: 50px;
+    margin-top: 1rem;
+    transition: background-color ease-out 0.2s;
+}
+
+.btn:hover,
+.btn:active {
+    border: 2px solid white;
+    color: white;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.btn-sedan {
+    color: var(--bright-orange);
+}
+
+.btn-suv {
+    color: var(--dark-cyan);
+}
+
+.btn-luxuxry {
+    color: var(--very-dark-cyan);
+}
+
+.attribution {
+    padding: 15px;
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+@media (min-width: 576px) {
+    .container {
+        width: 65%;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 90%;
+        flex-direction: row;
+    }
+
+    .attribution {
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        max-width: 900px;
+    }
+}
+  
